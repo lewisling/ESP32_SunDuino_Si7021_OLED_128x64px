@@ -5,7 +5,7 @@ Websites
 (EN) https://time4ee.com<br>
 (CZ/SK) https://chiptron.petus.cz<br>
 <br>
-ESP32 pinout: IO21 (SDA) a IO22 (SCL)
+ESP32 pinout: IO21 (SDA) a IO22 (SCL)<br>
 <br>
 ESP32 by https://www.dfrobot.com/product-1559.html <br>
 SunDuino ESP32 by http://www.sunduino.pl/wordpress/esp-wroom-32-czesc-4-esp32-sunduino/ <br>
