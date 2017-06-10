@@ -3,9 +3,9 @@ ESP32 (SunDuino board) with temperature/humidity sensor and OLED 128x64 (I2C)
 <br>
 Websites
 (EN) https://time4ee.com<br>
-(CZ/SK) https://chiptron.petus.cz<br>
+(CZ/SK) https://chiptron.petus.cz/articles.php?article_id=109<br>
 <br>
-ESP32 pinout: IO21 (SDA) a IO22 (SCL)<br>
+ESP32 pinout: IO21 (SDA), IO22 (SCL) and IO19 (RESET)<br>
 <br>
 ESP32 by https://www.dfrobot.com/product-1559.html <br>
 SunDuino ESP32 by http://www.sunduino.pl/wordpress/esp-wroom-32-czesc-4-esp32-sunduino/ <br>
