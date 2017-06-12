@@ -2,7 +2,7 @@
 ESP32 (SunDuino board) with temperature/humidity sensor and OLED 128x64 (I2C)
 <br>
 Websites
-(EN) https://time4ee.com<br>
+(EN) https://time4ee.com/articles.php?article_id=46<br>
 (CZ/SK) https://chiptron.petus.cz/articles.php?article_id=109<br>
 <br>
 ESP32 pinout: IO21 (SDA), IO22 (SCL) and IO19 (RESET)<br>
