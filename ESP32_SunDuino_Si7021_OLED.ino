@@ -1,5 +1,5 @@
 /*********************************************************************
-ESP32 (SunDuino board) with temperature/humidity sensor and OLED 128x64 (I2C) 
+ESP32 (SunDuino board) with temperature/humidity sensor Si7021 and OLED 128x64 (I2C) 
 Websites (EN) https://time4ee.com
 (CZ/SK) https://chiptron.petus.cz
 
@@ -16,7 +16,7 @@ OLED 128x64px arduino library by https://learn.adafruit.com/monochrome-oled-brea
 #include <Adafruit_SSD1306.h>
 #include "SparkFun_Si7021_Breakout_Library.h"
 
-#define OLED_RESET 19
+#define OLED_RESET 19 // RESET pin connected from ESP32 to OLED
 Adafruit_SSD1306 display(OLED_RESET);
 
 #define NUMFLAKES 10
@@ -42,8 +42,6 @@ void setup()   {
 
   // Clear the buffer.
   display.clearDisplay();
-
-  Serial.println("setup");
 
   //Initialize the I2C sensors and ping them
   sensor.begin();
