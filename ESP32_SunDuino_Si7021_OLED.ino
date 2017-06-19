@@ -29,7 +29,6 @@ Adafruit_SSD1306 display(OLED_RESET);
 #endif
 
 float humidity = 0;
-float tempf = 0;
 float tempC = 0;
 
 //Create Instance of HTU21D or SI7021 temp and humidity sensor and MPL3115A2 barrometric sensor
@@ -57,10 +56,7 @@ void loop() {
   humidity = sensor.getRH();
 
   //Measure Temperature from the HTU21D or Si7021
-  tempf = sensor.getTempF();
-
-  //Calc to Celsius
-  tempC = (tempf-32)/1.8;
+  tempC = sensor.getTemp();
 
   Serial.print("Temp:");
   Serial.print(tempC);
